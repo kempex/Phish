@@ -50,7 +50,7 @@
 <br>
 <br>
 <br>
-<p>My School Project by Emmanuel Asuquo Ekpo Track No:18/132026 Computer Science</p>
+<p>School Project by Emmanuel Asuquo Ekpo Track No:18/132026 Computer Science</p>
 </div>
 
     <!-- JavaScript -->
@@ -78,7 +78,7 @@
                 document.getElementById("prediction").innerHTML = label;
                 document.getElementById("button1").style.display="block";
                 var maf = document.getElementById("maf").innerHTML ;
-                fetch('https://jenifernkem.000webhostapp.com/create_user.php?url='& maf & '&rating=Safe&score='& txt)
+                fetch('https://jenifernkem.000webhostapp.com/create_user.php?url='& maf & '&rating=Safe&score='& txtx)
                 .then(res.setHeader("Access-Control-Allow-Origin", "*"));
             }
             else if (0<=x && x<0.50){
@@ -86,7 +86,7 @@
                 document.getElementById("prediction").innerHTML = label ;
                 document.getElementById("button2").style.display="block";
                 var maf = document.getElementById("maf").innerHTML;
-                fetch('https://jenifernkem.000webhostapp.com/create_user.php?url='& maf & '&rating=UnSafe&score='& txt)
+                fetch('https://jenifernkem.000webhostapp.com/create_user.php?url='& maf & '&rating=UnSafe&score='& txtx)
                 .then(res.setHeader("Access-Control-Allow-Origin", "*"));
             }
         
